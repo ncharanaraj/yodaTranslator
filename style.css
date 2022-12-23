@@ -1,0 +1,26 @@
+:root {
+    --primary: #06b6d4;
+    --secondary: #67e8f9;
+    --black: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+}
+
+button {
+    display: block;
+}
+
+#output-translator, #input-translator {
+    width: 50%;
+    height: 10vh;
+    border: 1px solid var(--black);
+    margin: 1rem 0;
+}
