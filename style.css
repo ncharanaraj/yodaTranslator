@@ -69,6 +69,21 @@ button:hover {
     box-shadow: 5px 10px var(--secondary);
 }
 
+.source-code {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.source-code a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.source-code a:hover {
+    text-decoration: overline var(--secondary) double 1px;
+    font-size: larger;
+}
+
 footer {
     background-color: var(--primary);
     text-align: center;
